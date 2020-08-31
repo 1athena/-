@@ -1,0 +1,156 @@
+.ShouyeBox{
+    padding: 0;
+    margin: 0;
+}
+.headBox{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: rgba(114,114,114, 0.6);
+    z-index: 666;
+}
+ul{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    flex: 1;
+    cursor: pointer;
+    color: #ffffff
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff
+}
+ul li:hover{
+    background: red
+}
+ul li:focus{
+    color: red;
+}
+.chooseit{
+    color: red;
+}
+
+.bannerBox{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bannerbg{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+}
+.bannerbg img{
+    width: 100%;
+    height: 100%;
+}
+.bannerCenBox{
+    display: block;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 15%;
+    z-index: 3;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+}
+h4{
+    padding: 20px 0;
+    text-align: center;
+}
+h6{
+    padding: 20px 0;
+    text-align: center;
+}
+.bannerBox2{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bannerBox3{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bannerBoxcen3{
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    color: #ffffff;
+    display: block;
+    z-index: 3;
+
+}
+.bannerBox4{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bannerBoxcen4{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 15%;
+    z-index: 3;
+}
+.bannerBox5{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bannerBoxcen5{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    color: #ffffff;
+    display: block;
+    z-index: 3;
+}
+.bottomBox{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.bottomBoxcen{   
+    width: 100%;
+    position: absolute; 
+    padding-top: 80px;
+    display: flex;
+    color: #ffffff;
+    z-index: 3;
+}
+.bottomBox div{
+    flex: 1;
+}
+.bottomBoxcen div a{
+    display: block;
+    line-height: 50px;
+    cursor: pointer;
+}
+.bottomLogo{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 26px;
+    margin: auto;
+}
